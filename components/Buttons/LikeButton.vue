@@ -36,12 +36,12 @@ export default Vue.extend({
     }
   },
   mounted() {
-    this.$store.subscribe((mutation) => {
+    this.$store.subscribe((mutation, state) => {
       if (
         mutation?.type === 'SOCKET_ONMESSAGE' &&
-        mutation?.payload?.MessageType === 'UserDataChanged'
+        state.socket.message.MessageType === 'UserDataChanged'
       ) {
-        const payloadData = mutation?.payload?.Data?.UserDataList;
+        const payloadData = state.socket.message.Data.UserDataList;
         if (payloadData) {
           for (const payloadItem of payloadData) {
             if (payloadItem.ItemId === this.item.Id) {
