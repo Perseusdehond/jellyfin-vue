@@ -3,7 +3,7 @@
     class="user-card mx-auto d-flex flex-column"
     @click="$emit('connect', user)"
   >
-    <user-image size="128" :user="user" />
+    <user-image :size="128" :user="user" class="pointer" />
     <span class="text-subtitle-1 text-center mt-2">{{ user.Name }}</span>
   </div>
 </template>
@@ -36,3 +36,9 @@ export default Vue.extend({
   }
 });
 </script>
+
+<style scoped>
+.pointer {
+  cursor: pointer;
+}
+</style>
