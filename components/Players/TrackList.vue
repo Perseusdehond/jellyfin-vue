@@ -3,8 +3,8 @@
     <thead>
       <tr>
         <th style="width: 6em" class="pr-0 text-center" scope="col">#</th>
-        <th style="width: 3em" class="pr-0 pl-0" scope="col"></th>
-        <th scope="col">Title</th>
+        <th style="width: 3em" class="pr-0 pl-0" scope="col" />
+        <th scope="col">{{ $t('item.tracklist.title') }}</th>
         <th style="width: 6.5em" class="text-center" scope="col">
           <v-icon class="text--primary" size="16">mdi-clock-outline</v-icon>
         </th>

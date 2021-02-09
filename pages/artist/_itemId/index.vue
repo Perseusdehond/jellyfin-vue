@@ -63,7 +63,7 @@
                               <track-list
                                 v-if="appearance.Type === 'MusicAlbum'"
                                 :item="appearance"
-                              ></track-list>
+                              />
                             </v-col>
                           </v-row>
                         </div>
@@ -124,9 +124,11 @@ export default Vue.extend({
     const appearances = (
       await $api.items.getItems({
         userId: $auth.user?.Id,
-        parentId: params.itemId,
+        albumArtistIds: [params.itemId],
         sortBy: 'PremiereDate,ProductionYear,SortName',
-        sortOrder: 'Descending'
+        sortOrder: 'Descending',
+        recursive: true,
+        includeItemTypes: ['MusicAlbum']
       })
     ).data.Items;
 

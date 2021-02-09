@@ -11,7 +11,24 @@
     "itemNotFound": "Nie znaleziono",
     "libraryEmpty": "Ta biblioteka jest pusta",
     "libraryNotFound": "Biblioteka nie została znaleziona",
-    "login": "Logowanie",
+    "login": {
+        "connect": "Połącz",
+        "changeUser": "Zmień użytkownika",
+        "changeServer": "Zmień serwer",
+        "manualLogin": "Ręczne logowanie",
+        "serverNotFound": "Serwer nie znaleziony",
+        "serverDashboard": "Kokpit",
+        "serverAddressRequired": "Adres serwera jest wymagany",
+        "serverAddressMustBeUrl": "Adres serwera musi być prawidłowym adresem URL",
+        "serverAddress": "Adres serwera",
+        "serverVersionTooLow": "Serwer musi być w wersji 10.7.0 lub wyższej",
+        "selectUser": "Wybierz użytkownika",
+        "rememberMe": "Zapamiętaj mnie",
+        "loginAs": "Zaloguj się jako {name}",
+        "addServer": "Dodaj serwer",
+        "selectServer": "Wybierz serwer",
+        "login": "Logowanie"
+    },
     "logout": "Wyloguj",
     "more": "Więcej",
     "moreLikeThis": "Więcej jak to",
@@ -225,7 +242,8 @@
         "failedGetActivity": "Nie udało się odczytać aktywności",
         "failedGetLogs": "Nie udało się odczytać dziennika zdarzeń",
         "logs": "Dziennik zdarzeń",
-        "activity": "Aktywność"
+        "activity": "Aktywność",
+        "noLogsFound": "Nie znaleziono dziennika zdarzeń"
     },
     "logo": "Logo",
     "loginAs": "Zaloguj jako {name}",
@@ -336,5 +354,51 @@
     "noAudioTrackSelected": "Nie wybrano ścieżki dźwiękowej",
     "confirm": "Potwierdź",
     "NoMediaSourcesAvailable": "Brak dostępnych źródeł multimediów",
-    "noVideoTracksAvailable": "Brak dostępnych ścieżek wideo"
+    "noVideoTracksAvailable": "Brak dostępnych ścieżek wideo",
+    "unableToToggleLike": "Nie można zmienić statusu polubionego elementu",
+    "resume": "Wznów",
+    "playback": {
+        "queueItems": "{items} utwory",
+        "addToQueue": "Dodaj do kolejki",
+        "playNext": "Odtwarzaj następne",
+        "shuffle": "Wylosuj",
+        "playAll": "Odtwarzaj wszystko",
+        "shuffleAll": "Odtwarzaj wszystko losowo",
+        "saveAsPlaylist": "Zapisz kolejkę jako playlistę",
+        "playbackSource": {
+            "unknown": "Odtwarzaj z kolejki",
+            "shuffleItem": "Odtwarzaj {item} losowo",
+            "shuffle": "Odtwarzaj losowo",
+            "item": "Odtwarzaj z {item}"
+        },
+        "clearQueue": "Wyczyść kolejkę i zatrzymaj odtwarzanie"
+    },
+    "playFromBeginning": "Odtwarzaj od początku",
+    "item": {
+        "tracklist": {
+            "title": "Tytuł"
+        },
+        "person": {
+            "person": "Osoba",
+            "death": "Śmierć",
+            "birthPlace": "Miejsce narodzin",
+            "birth": "Narodziny"
+        },
+        "crew": "Załoga",
+        "composer": "Kompozytor",
+        "cast": "Obsada"
+    },
+    "imageType": {
+        "thumb": "Miniaturka",
+        "screenshot": "Zrzut ekranu",
+        "primary": "Podstawowy",
+        "menu": "Menu",
+        "logo": "Logo",
+        "disc": "Dysk",
+        "boxRear": "Tył pudełka",
+        "box": "Pudełko",
+        "banner": "Transparent",
+        "backdrop": "Tło",
+        "art": "Obraz"
+    }
 }

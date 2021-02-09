@@ -11,7 +11,24 @@
     "itemNotFound": "Element nicht gefunden",
     "libraryEmpty": "Diese Bibliothek ist leer",
     "libraryNotFound": "Bibliothek nicht gefunden",
-    "login": "Anmelden",
+    "login": {
+        "connect": "Verbinden",
+        "changeUser": "Benutzer wechseln",
+        "changeServer": "Server wechseln",
+        "manualLogin": "Manuelle Anmeldung",
+        "serverNotFound": "Server nicht gefunden",
+        "serverDashboard": "Server-Dashboard",
+        "serverAddressRequired": "Server-Adresse wird benötigt",
+        "serverAddressMustBeUrl": "Server-Adresse muss eine gültige URL sein",
+        "serverAddress": "Server-Adresse",
+        "serverVersionTooLow": "Server muss die Version 10.7.0 oder höher haben",
+        "selectUser": "Benutzer auswählen",
+        "rememberMe": "Anmeldedaten speichern",
+        "loginAs": "Anmelden als {name}",
+        "addServer": "Server hinzufügen",
+        "selectServer": "Server auswählen",
+        "login": "Anmelden"
+    },
     "logout": "Abmelden",
     "more": "Mehr",
     "movies": "Filme",
@@ -108,7 +125,7 @@
     "validation": {
         "required": "Dieses Feld ist erforderlich",
         "mustBeUrl": "Dieses Feld muss eine gültige URL enthalten",
-        "bothPasswordsSame": "Beide Passwörter müssen gleich sein"
+        "bothPasswordsSame": "Beide Passwörter müssen sicher sein"
     },
     "numberTracks": "{number} Lieder",
     "nextUp": "Als nächstes",
@@ -277,7 +294,8 @@
         "failedGetActivity": "Aktivitäten können nicht abgerufen werden",
         "failedGetLogs": "Protokolle können nicht abgerufen werden",
         "logs": "Protokoll",
-        "activity": "Aktivitäten"
+        "activity": "Aktivitäten",
+        "noLogsFound": "Keine Protokolle gefunden"
     },
     "audio": "Ton",
     "homeHeader": {
@@ -317,20 +335,20 @@
         "setLanguageError": "Das Einstellen der Clientsprache ist fehlgeschlagen.",
         "setAdminError": "Das Erstellen eines Administratorkontos ist nicht möglich.",
         "setupWizard": "Einrichtungsassistent",
-        "confirmPassword": "Passwort bestätigen",
+        "confirmPassword": "Bestätige Passwort",
         "userSuccessfullySet": "Benutzer erfolgreich gesetzt.",
-        "setMetadataError": "Das Setzen der Metadatensprache ist nicht möglich.",
+        "setMetadataError": "Konnte Metadata-Sprache nicht setzen.",
         "remoteAccess": "Fernzugriff",
         "allowRemoteAccess": "Erlaube Fernzugriff auf den Server",
         "administratorAccount": "Administratorkonto",
         "languageLocale": "Sprache und Standort",
         "preferedLanguage": "Bevorzugte Sprache",
         "preferredMetadataLanguage": "Bevorzugte Metadatensprache",
-        "completeError": "Der Einrichtungsassistent konnte nicht abgeschlossen werden.",
+        "completeError": "Konnte Startup Wizard nicht beenden.",
         "remoteAccessSet": "Fernzugriff eingestellt.",
-        "metadataLanguagesSet": "Metadatensprache eingestellt.",
-        "languageSuccessfullySet": "Sprache erfolgreich geändert.",
-        "setRemoteError": "Das Setzen der Fernzugriffseinstellungen ist nicht möglich."
+        "metadataLanguagesSet": "Metadata-Sprache gesetzt.",
+        "languageSuccessfullySet": "Die Sprache wurde erfolgreich eingestellt.",
+        "setRemoteError": "Konnte Fernzugriff Einstellungen nicht setzen."
     },
     "noSubtitlesAvailable": "Keine Untertitel verfügbar",
     "noVideoTracksAvailable": "Keine Videospur verfügbar",
@@ -339,5 +357,51 @@
     "noAudioTracksAvailable": "Keine Audiospur verfügbar",
     "noAudioTrackSelected": "Keine Audiospur ausgewählt",
     "confirm": "Bestätigen",
-    "NoMediaSourcesAvailable": "Keine Medienquellen verfügbar"
+    "NoMediaSourcesAvailable": "Keine Medienquellen verfügbar",
+    "unableToToggleLike": "\"Gefällt mir\"-Status konnte nicht geändert werden",
+    "resume": "Fortsetzen",
+    "playback": {
+        "queueItems": "{items} Titel",
+        "addToQueue": "Zur Warteschlange hinzufügen",
+        "playNext": "Nächstes wiedergeben",
+        "shuffle": "Mischen",
+        "playAll": "Alle wiedergeben",
+        "shuffleAll": "Alle mischen",
+        "saveAsPlaylist": "Warteschlange als Wiedergabeliste speichern",
+        "playbackSource": {
+            "unknown": "Wiedergabe aus der Warteschlange",
+            "shuffleItem": "Wiedergabe von {item} in der Zufallswiedergabe",
+            "shuffle": "Wiedergabe in der Zufallswiedergabe",
+            "item": "Wiedergabe ab {item}"
+        },
+        "clearQueue": "Warteschlange löschen und Wiedergabe stoppen"
+    },
+    "playFromBeginning": "Vom Anfang abspielen",
+    "item": {
+        "tracklist": {
+            "title": "Titel"
+        },
+        "person": {
+            "person": "Person",
+            "death": "Todestag",
+            "birthPlace": "Geburtsort",
+            "birth": "Geburtstag"
+        },
+        "crew": "Mannschaft",
+        "composer": "Komponist",
+        "cast": "Besetzung"
+    },
+    "imageType": {
+        "thumb": "Vorschaubild",
+        "screenshot": "Bildschirmfoto",
+        "primary": "Hauptbild",
+        "menu": "Menü",
+        "logo": "Logo",
+        "disc": "Disk",
+        "boxRear": "Hülle (Rückseite)",
+        "box": "Hülle",
+        "banner": "Banner",
+        "backdrop": "Hintergrund",
+        "art": "Kunst"
+    }
 }
